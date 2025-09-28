@@ -1,46 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>A-Frame Primitives – [Piero Spaudo]</title>
-       <script src="https://aframe.io/releases/1.7.0/aframe.min.js">
-       </script>
-    </head>
-    <body>
-       <a-scene>
-  <a-sphere
-     color="red"
-     position="-4 6 -12"
-     radius="1"
->
-</a-sphere>
-  <a-cylinder
-     color="blue"
-     position="-4 6 -12"
-     radius="1"
-     height="4"
->
-</a-cylinder>
-  <a-cone
-    color="yellow"
-    position="-5 0 -8"
-    rotation="-45 0 0"
-    radius-bottom="0.75"
-    height="3"
->
-</a-cone>
-  <a-plane
-    color="purple"
-    position="0 0 0"
-    rotation="-90 0 0"
-    width="20"
-    height="20"
->
-</a-plane>
-  <a-sky
-    color="lightskyblue"
->
-</a-sky>
+  <head>
+    <title>A-Frame Primitives – Piero Spaudo</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js">
+    </script>
+  </head>
+  <body>
+    <a-scene>
+      <a-plane
+        color="green"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="60"
+        height="60"
+      >
+      </a-plane>
 
-       </a-scene>
-    </body>
+      <a-sky
+        color="skyblue"
+      >
+      </a-sky>
+
+      <a-box
+        color="purple"
+        position="-10 3 -25"
+        rotation="0 30 0"
+        width="6"
+        height="6"
+        depth="6"
+      >
+      </a-box>
+
+      <a-cylinder
+        color="blue"
+        position="12 5 -22"
+        rotation="0 0 0"
+        radius="3"
+        height="10"
+      >
+      </a-cylinder>
+
+      <a-sphere
+        color="red"
+        position="-18 4 -18"
+        radius="2"
+      >
+      </a-sphere>
+
+      <a-cone
+        color="yellow"
+        position="18 3 -28"
+        rotation="0 0 0"
+        radius-bottom="2"
+        height="6"
+      >
+      </a-cone>
+
+      <a-text
+        value="Piero Fabrizzio Spaudo Pesantez"
+        position="0 6 -15"
+        rotation="0 0 0"
+        color="white"
+        width="12"
+      >
+      </a-text>
+    </a-scene>
+  </body>
 </html>
